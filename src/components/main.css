@@ -1,0 +1,102 @@
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+* {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.home {
+    display: flex;
+}
+
+.productContainer {
+    display: flex;
+    width: 78%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.filters {
+    background-color: rgb(61, 56, 56);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+}
+
+.filters>span {
+    padding-bottom: 30px;
+}
+.dropdown-menu{
+    min-width: 10rem !important;
+}
+
+.products {
+    width: 30%;
+    margin: 10px;
+}
+
+.cartitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+.cartItemImg {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.cartItemDetail {
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.cartDiv {
+    max-width: 250px;
+}
+
+.summary {
+    width: 20%;
+}
+
+@media (max-width:771px) {
+    .filters {
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .filters>span{
+        font-size: 10px;
+    }
+    .title{
+        font-size: 18px !important;
+    }
+    .productContainer{
+        width: 58%;
+        padding: 0;
+    }
+    .search{
+        display: none !important;
+    }
+    .products{
+        width: 100%;
+    }
+
+}
+.floating-whatsapp-button{
+    width: 30px !important;
+    height: 30px !important;
+}
